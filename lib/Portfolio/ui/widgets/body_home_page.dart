@@ -42,10 +42,6 @@ class BodyHomePage extends StatelessWidget {
           ListView(
             children: [body_structure, AboutMe()],
           ),
-          Divider(
-            color: Colors.white,
-            height: 40.0,
-          ),
         ],
       ),
     );
