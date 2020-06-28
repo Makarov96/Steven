@@ -3,16 +3,21 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "2d2067373dc707d39a2e26400d38877e",
+  "assets/AssetManifest.json": "e9e6497cd5725a4b451a32b064f129f3",
 "assets/assets/img/Diamons.png": "24d130d81e39b8828faf3852f7f257e4",
+"assets/assets/img/facebook.png": "d91d9bfee2967d937ceb921914d3297b",
 "assets/assets/img/figure.png": "a7991517ba84617612a907a923e995c9",
+"assets/assets/img/github.png": "393afde9d3a46f5ee6ed992c227677ad",
+"assets/assets/img/instagram.png": "8e893bc27d90c632a1c4cdbd970dd13e",
+"assets/assets/img/li.png": "236d988ff99209397903d7ee6094ebb7",
 "assets/assets/img/mancha.png": "155120b072a4565957102cd563adc825",
 "assets/assets/img/mancha2.png": "e14e0c6dab5c84606c83bfa99b4d1795",
 "assets/assets/img/play.png": "cf19f9b175ebd7650e9860257a90da85",
 "assets/assets/img/raqueta.png": "4beb999511d72499d3df4380a4291b1f",
+"assets/assets/img/Steven.jpg": "690d11ea50e32e8a94165bf7c8bf064b",
 "assets/FontManifest.json": "18eda8e36dfa64f14878d07846d6e17f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"assets/NOTICES": "53116e3cc00063786165baf6fc00ec20",
+"assets/NOTICES": "b37b25bb098580d0034adec5480b7687",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
@@ -22,7 +27,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "78c33a4648a12c74995ea47d864f33d9",
 "/": "78c33a4648a12c74995ea47d864f33d9",
-"main.dart.js": "50d8aecf9436857f338beb3811ecf4e5",
+"main.dart.js": "465731243883c35b44addc239fc91d28",
 "manifest.json": "fa8d938a12b2116e51a3bc097f6d551c"
 };
 
