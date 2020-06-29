@@ -1,31 +1,24 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web_steven/Portfolio/ui/screens/inspiration_screen.dart';
-import 'package:flutter_web_steven/Portfolio/ui/widgets/body_home_page.dart';
+import 'package:flutter_web_steven/Portfolio/ui/widgets/listview_person_inspitarion.dart';
 import 'package:flutter_web_steven/Widgets/Transitions/fade_route.dart';
 import 'package:flutter_web_steven/Widgets/background_color.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class Home extends StatefulWidget {
-  const Home({Key key}) : super(key: key);
-
-  @override
-  _HomeState createState() => _HomeState();
-}
-
-class _HomeState extends State<Home> {
-  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
-
-  void _openEndDrawer() {
-    _scaffoldKey.currentState.openEndDrawer();
-  }
-
-  void _closeEndDrawer() {
-    Navigator.of(context).pop();
-  }
+class InspirationScreen extends StatelessWidget {
+  const InspirationScreen({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    double screenHeight = MediaQuery.of(context).size.height;
+    final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey<ScaffoldState>();
+
+    void _openEndDrawer() {
+      _scaffoldKey.currentState.openEndDrawer();
+    }
+
+    void _closeEndDrawer() {
+      Navigator.of(context).pop();
+    }
+
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.black,
@@ -60,7 +53,7 @@ class _HomeState extends State<Home> {
             ),
             Container(
               color: Colors.black87,
-              height: screenHeight * 0.83,
+              height: 478,
               width: double.infinity,
               child: Column(
                 children: [
@@ -140,14 +133,12 @@ class _HomeState extends State<Home> {
           ],
         ),
       ),
-      // Disable opening the end drawer with a swipe gesture.
       endDrawerEnableOpenDragGesture: false,
-
       body: Stack(children: [
         BackGroundColor(
           color: Colors.black,
         ),
-        BodyHomePage()
+        ListViewPersonInspiration()
       ]),
     );
   }
