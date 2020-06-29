@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_steven/Portfolio/model/inspiration_person.dart';
 import 'package:flutter_web_steven/Portfolio/ui/widgets/custom_card.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class ListViewPersonInspiration extends StatelessWidget {
   ListViewPersonInspiration({Key key}) : super(key: key);
@@ -9,7 +10,7 @@ class ListViewPersonInspiration extends StatelessWidget {
     InspirationPerson(
         name: "Anahi Salgado",
         description:
-            '''Has tenido esa persona que te ha motiva a aprender cosas nuevas y que no dependas solo de la universidad pues Anahi es una de esas personas, lo cual lo complicado lo vuelve sencillo y como persona tiene un gran corazón.''',
+            '''Has tenido esa persona que te ha motiva a aprender cosas nuevas y que no dependas solo de la universidad pues Anahi es una de esas personas, lo cual lo complicado lo vuelve sencillo y para ello te recomiendo todos sus cursos.''',
         path:
             "https://scontent-mia3-1.cdninstagram.com/v/t51.2885-15/e35/83992728_326011078351696_5234992602167151319_n.jpg?_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=104&_nc_ohc=-MfKtkREXL4AX9VD3SP&oh=5b21499b5147553191558faa2424fde7&oe=5F21AADB",
         initialColor: Color(0xFFFF8095),
@@ -33,7 +34,7 @@ class ListViewPersonInspiration extends StatelessWidget {
     InspirationPerson(
         name: "Charles Ans",
         description:
-            '''¿Has tenido musas en tu vida? Pero esas musas las cuales te han dejado grandes enseñanzas o te inspiran a diario como tu mama, tu hermana, tu abuela, alguna profesora, tu novia o inclusive alguna amiga, pues te recomiendo que escuches el disco "Smile" de Charles Ans.''',
+            '''¿Has tenido musas en tu vida? Pero esas musas las cuales te han dejado grandes enseñanzas o te inspiran a diario como tu mama, tu hermana, tu abuela, alguna profesora, tu novia o inclusive alguna amiga, pues te recomiendo que escuches el album "Smile" de Charles Ans.''',
         path:
             "https://instagram.fgua3-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/55835399_214125769548150_2879143724885371293_n.jpg?_nc_ht=instagram.fgua3-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=4HT9IvQC7gIAX-wV4Oe&oh=26b15d36e55eeb139e4c4e2252c5c5e6&oe=5F2440BC",
         initialColor: Color(0xFF000428),
@@ -83,7 +84,7 @@ class ListViewPersonInspiration extends StatelessWidget {
     InspirationPerson(
         name: "Mowlihawk",
         description:
-            '''¿Te han dejado, la persona que te gusta te ignoro?, lee algún libro de Walter Riso el que se apegue más a tu realidad y te aseguro que te ayudara a superar ese mal momento''',
+            '''¿Piensas que un sueño es imposible y que no lo alcanzaras? Solo se trata de rodearte con las personas correctas un buen tema para que te puedas dar cuenta: “Soñaba de pequeño” - Mowlihawk ''',
         path:
             "https://instagram.fgua3-2.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/75477009_2611335142427753_8289259036907052931_n.jpg?_nc_ht=instagram.fgua3-2.fna.fbcdn.net&_nc_cat=105&_nc_ohc=5gj-q5EDtkwAX8PH6CM&oh=12131aa55ec34df66c422a1ca522f595&oe=5F21D61B",
         initialColor: Color(0xFFe1eec3),
@@ -98,6 +99,41 @@ class ListViewPersonInspiration extends StatelessWidget {
         initialColor: Color(0xFFfffcdc),
         finalColor: Color(0xFFd9a7c7)),
 
+    InspirationPerson(
+        name: "El chojin",
+        description:
+            '''¿Han hablado mal de ti?  Escucha: “Dejad que hablen” – El Chojin''',
+        path:
+            "https://instagram.fgua3-1.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/70388380_428772831098629_4093144031581586654_n.jpg?_nc_ht=instagram.fgua3-1.fna.fbcdn.net&_nc_cat=101&_nc_ohc=1Tk59IGtSQkAX9kaQ1b&oh=d1b4f9929fc98931eeae848bb1580aa2&oe=5F233D61",
+        initialColor: Color(0xFF9796f0),
+        finalColor: Color(0xFFfbc7d4)),
+    InspirationPerson(
+        name: "Brendon Urie",
+        description:
+            '''¿Quieres seguridad en tu vida? escucha Hugh Hopes – Brendon Urie''',
+        path:
+            "https://instagram.fgua3-1.fna.fbcdn.net/v/t51.2885-15/e35/12547341_108458866203767_1165083752_n.jpg?_nc_ht=instagram.fgua3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=ZKiS1Mu_qUIAX_dT51_&oh=a6cf66e6e830e872b2511b7b7999df10&oe=5F2218AA",
+        initialColor: Color(0xFF232526),
+        finalColor: Color(0xFF414345)),
+
+    InspirationPerson(
+        name: "Gym Class Heroes",
+        description:
+            '''Pueda que muchas veces te hayas caído, que no hayas logrado eso que más anhelabas, pero … ¿Sabes? De eso se trata la vida de caerse, pero no quedarse ahí sino volver a intentarlo hasta que lo logres ¿Quieres ver? Para ello te recomiendo: Gym Class Heroes: “The Fighter” ft Ryan Tedder  ''',
+        path:
+            "https://instagram.fgua3-1.fna.fbcdn.net/v/t51.2885-15/e35/54511937_2806773639340800_500327367240923244_n.jpg?_nc_ht=instagram.fgua3-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=tdLCwOgqwbQAX_2Oaua&oh=81d2ad6bfbd9f99bdb548aed2f2b251d&oe=5F237D2F",
+        initialColor: Color(0xFFE29587),
+        finalColor: Color(0xFFD66D75)),
+
+    InspirationPerson(
+        name: "Norick",
+        description:
+            '''¿Una canción para mamá? Norick - "Mi mejor inspiración"''',
+        path:
+            "https://instagram.fgua3-1.fna.fbcdn.net/v/t51.2885-15/e35/67951152_156219232150473_4569218920611310917_n.jpg?_nc_ht=instagram.fgua3-1.fna.fbcdn.net&_nc_cat=109&_nc_ohc=fyk8owqVWYYAX88GVgS&oh=1c8596767cdb4293ea74622bb62b48fa&oe=5F22A765",
+        initialColor: Color(0xFF3A6073),
+        finalColor: Color(0xFF16222A)),
+
     //
   ];
 
@@ -105,25 +141,64 @@ class ListViewPersonInspiration extends StatelessWidget {
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
     return Center(
-      child: Container(
-        margin: EdgeInsets.symmetric(
-            horizontal: (screenWidth > 1023)
-                ? screenWidth * 0.35
-                : (screenWidth > 760) ? screenWidth * 0.3 : screenWidth * 0.2),
-        child: ListView.builder(
-            itemCount: arrayperson.length,
-            itemBuilder: (BuildContext context, int i) {
-              final person = arrayperson[i];
+        child: Container(
+      margin: EdgeInsets.symmetric(
+          horizontal: (screenWidth > 1023)
+              ? screenWidth * 0.35
+              : (screenWidth > 760) ? screenWidth * 0.3 : screenWidth * 0.2),
+      child: ListView(
+        children: <Widget>[
+          HeaderOfInspiration(),
+          ListView.builder(
+              physics: ScrollPhysics(),
+              shrinkWrap: true,
+              itemCount: arrayperson.length,
+              itemBuilder: (BuildContext context, int i) {
+                final person = arrayperson[i];
 
-              return CustomCard(
-                  inspirationPerson: InspirationPerson(
-                      name: person.name,
-                      description: person.description,
-                      path: person.path,
-                      initialColor: person.initialColor,
-                      finalColor: person.finalColor));
-            }),
+                return CustomCard(
+                    inspirationPerson: InspirationPerson(
+                        name: person.name,
+                        description: person.description,
+                        path: person.path,
+                        initialColor: person.initialColor,
+                        finalColor: person.finalColor));
+              }),
+        ],
       ),
+    ));
+  }
+}
+
+class HeaderOfInspiration extends StatelessWidget {
+  const HeaderOfInspiration({Key key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Container(
+            alignment: Alignment.center,
+            child: Text("Inspiraciones que me han ",
+                style: GoogleFonts.roboto(
+                    color: Colors.white,
+                    fontSize: 35,
+                    fontWeight: FontWeight.w400))),
+        Container(
+            alignment: Alignment.center,
+            child: Text("ayudado, espero te ayuden a ti",
+                style: GoogleFonts.roboto(
+                    color: Colors.white,
+                    fontSize: 25,
+                    fontWeight: FontWeight.w400))),
+        Container(
+          height: 300,
+          width: double.infinity,
+          decoration: BoxDecoration(
+              image:
+                  DecorationImage(image: AssetImage("assets/img/lines.png"))),
+        ),
+      ],
     );
   }
 }

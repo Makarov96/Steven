@@ -136,7 +136,7 @@ class InspirationScreen extends StatelessWidget {
         BackGroundColor(
           color: Colors.black,
         ),
-        ListViewPersonInspiration()
+        ListViewPersonInspiration(),
       ]),
     );
   }
