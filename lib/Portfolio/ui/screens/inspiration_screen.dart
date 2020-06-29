@@ -28,11 +28,9 @@ class InspirationScreen extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Container(
-              color: Colors.black,
               child: DrawerHeader(
                 padding: EdgeInsets.all(0),
                 child: Container(
-                  color: Colors.black,
                   child: Center(
                     child: Container(
                       width: 90,
@@ -52,8 +50,6 @@ class InspirationScreen extends StatelessWidget {
               ),
             ),
             Container(
-              color: Colors.black87,
-              height: 478,
               width: double.infinity,
               child: Column(
                 children: [

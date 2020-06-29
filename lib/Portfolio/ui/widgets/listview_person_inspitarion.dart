@@ -14,36 +14,60 @@ class ListViewPersonInspiration extends StatelessWidget {
         initialColor: Color(0xFFFF8095),
         finalColor: Color(0xFFFF5672)),
     InspirationPerson(
+        name: "Albert Espinoza",
+        description: "",
+        path:
+            "https://instagram.fgua3-2.fna.fbcdn.net/v/t51.2885-15/e35/44253928_502160850263515_2213877080216954768_n.jpg?_nc_ht=instagram.fgua3-2.fna.fbcdn.net&_nc_cat=107&_nc_ohc=vU2bIKwUi6cAX9sSS0p&oh=605a69a577554a454c2e5ccd8f8787ae&oe=5F24E9A9",
+        initialColor: Color(0xFF701632),
+        finalColor: Color(0xFFEEB1C0)),
+    InspirationPerson(
         name: "Gera Mx",
         description: "",
         path:
             "https://scontent-mia3-1.cdninstagram.com/v/t51.2885-15/e35/p1080x1080/60175167_513356239201592_5691297568834024715_n.jpg?_nc_ht=scontent-mia3-1.cdninstagram.com&_nc_cat=108&_nc_ohc=uZgySisFaTwAX_bz1zO&oh=336fc99458d6c2759b77ebcb723f1fa1&oe=5F242E9C",
         initialColor: Color(0xFF41295a),
-        finalColor: Color(0xFF2F0743))
+        finalColor: Color(0xFF2F0743)),
+    InspirationPerson(
+        name: "Charles Ans",
+        description: "",
+        path:
+            "https://instagram.fgua3-1.fna.fbcdn.net/v/t51.2885-15/e35/s1080x1080/55835399_214125769548150_2879143724885371293_n.jpg?_nc_ht=instagram.fgua3-1.fna.fbcdn.net&_nc_cat=106&_nc_ohc=4HT9IvQC7gIAX-wV4Oe&oh=26b15d36e55eeb139e4c4e2252c5c5e6&oe=5F2440BC",
+        initialColor: Color(0xFF000428),
+        finalColor: Color(0xFF004e92)),
+    InspirationPerson(
+        name: "Lil Supa",
+        description: "",
+        path:
+            "https://instagram.fgua3-2.fna.fbcdn.net/v/t51.2885-15/e35/p1080x1080/105948596_1198679703842677_4115071016167774575_n.jpg?_nc_ht=instagram.fgua3-2.fna.fbcdn.net&_nc_cat=1&_nc_ohc=E1KmXwHZMqYAX9-SdjJ&oh=924aeed9d4e53942121caa8200695c40&oe=5F22DE0A",
+        initialColor: Color(0xFF1F1C2C),
+        finalColor: Color(0xFF928DAB)),
+
+    //0xFFCAC531
   ];
 
   @override
   Widget build(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.width;
     return Center(
-      child: ListView.builder(
-          itemCount: arrayperson.length,
-          itemBuilder: (BuildContext context, int i) {
-            final person = arrayperson[i];
-            print(person.name);
-            return CustomCard(
-                inspirationPerson: InspirationPerson(
-                    name: person.name,
-                    description: "",
-                    path: person.path,
-                    initialColor: person.initialColor,
-                    finalColor: person.finalColor));
-          }),
+      child: Container(
+        margin: EdgeInsets.symmetric(
+            horizontal: (screenWidth > 1023)
+                ? screenWidth * 0.35
+                : (screenWidth > 760) ? screenWidth * 0.3 : screenWidth * 0.2),
+        child: ListView.builder(
+            itemCount: arrayperson.length,
+            itemBuilder: (BuildContext context, int i) {
+              final person = arrayperson[i];
+
+              return CustomCard(
+                  inspirationPerson: InspirationPerson(
+                      name: person.name,
+                      description: "",
+                      path: person.path,
+                      initialColor: person.initialColor,
+                      finalColor: person.finalColor));
+            }),
+      ),
     );
   }
 }
-
-/*
- Color(0xFFFF8095),
-                Color(0xFFFF5672),
-
- */

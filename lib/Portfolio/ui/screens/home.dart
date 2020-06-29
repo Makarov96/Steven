@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_web_steven/Portfolio/ui/screens/inspiration_screen.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_web_steven/Portfolio/ui/widgets/body_home_page.dart';
-import 'package:flutter_web_steven/Widgets/Transitions/fade_route.dart';
 import 'package:flutter_web_steven/Widgets/background_color.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -31,15 +30,14 @@ class _HomeState extends State<Home> {
         backgroundColor: Colors.black,
         elevation: 0,
       ),
+
       endDrawer: Drawer(
         child: Column(
           children: <Widget>[
             Container(
-              color: Colors.black,
               child: DrawerHeader(
                 padding: EdgeInsets.all(0),
                 child: Container(
-                  color: Colors.black,
                   child: Center(
                     child: Container(
                       width: 90,
@@ -59,8 +57,6 @@ class _HomeState extends State<Home> {
               ),
             ),
             Container(
-              color: Colors.black87,
-              height: screenHeight * 0.83,
               width: double.infinity,
               child: Column(
                 children: [
@@ -114,11 +110,7 @@ class _HomeState extends State<Home> {
                   ),
                   InkWell(
                     onTap: () {
-                      Navigator.push(
-                          context,
-                          FadeRoute(
-                            page: InspirationScreen(),
-                          ));
+                      Modular.to.pushNamed('/inspiration');
                     },
                     child: ListTile(
                       title: Text(
