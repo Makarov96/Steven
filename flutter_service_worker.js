@@ -17,7 +17,7 @@ const RESOURCES = {
 "assets/assets/img/Steven.jpg": "690d11ea50e32e8a94165bf7c8bf064b",
 "assets/FontManifest.json": "18eda8e36dfa64f14878d07846d6e17f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"assets/NOTICES": "b37b25bb098580d0034adec5480b7687",
+"assets/NOTICES": "29802935e406db4b9628f98fdfb9d574",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
@@ -27,7 +27,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "78c33a4648a12c74995ea47d864f33d9",
 "/": "78c33a4648a12c74995ea47d864f33d9",
-"main.dart.js": "f8d4cf3739b765a864d278b98cc48743",
+"main.dart.js": "7d071fde04c06aba3afd9c43d62dc3a4",
 "manifest.json": "fa8d938a12b2116e51a3bc097f6d551c"
 };
 
