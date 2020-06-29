@@ -110,7 +110,7 @@ class ListViewPersonInspiration extends StatelessWidget {
     InspirationPerson(
         name: "Brendon Urie",
         description:
-            '''¿Quieres seguridad en tu vida? escucha Hugh Hopes – Brendon Urie''',
+            '''¿Quieres seguridad en tu vida? escucha High Hopes – Brendon Urie''',
         path:
             "https://instagram.fgua3-1.fna.fbcdn.net/v/t51.2885-15/e35/12547341_108458866203767_1165083752_n.jpg?_nc_ht=instagram.fgua3-1.fna.fbcdn.net&_nc_cat=111&_nc_ohc=ZKiS1Mu_qUIAX_dT51_&oh=a6cf66e6e830e872b2511b7b7999df10&oe=5F2218AA",
         initialColor: Color(0xFF232526),
