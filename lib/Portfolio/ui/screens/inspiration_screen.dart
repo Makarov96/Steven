@@ -28,9 +28,11 @@ class InspirationScreen extends StatelessWidget {
         child: Column(
           children: <Widget>[
             Container(
+              color: Colors.black,
               child: DrawerHeader(
                 padding: EdgeInsets.all(0),
                 child: Container(
+                  color: Colors.black,
                   child: Center(
                     child: Container(
                       width: 90,

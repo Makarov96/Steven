@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_web_steven/Portfolio/model/inspiration_person.dart';
+import 'package:flutter_web_steven/Widgets/custom_alert_dialog.dart';
 
 class CustomCard extends StatelessWidget {
   final InspirationPerson inspirationPerson;
@@ -9,7 +10,10 @@ class CustomCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       splashColor: Colors.white,
-      onTap: () {},
+      onTap: () {
+        _showDialog(
+            context, inspirationPerson.name, inspirationPerson.description);
+      },
       child: Container(
         margin: EdgeInsets.only(top: 30),
         width: 200,
@@ -50,6 +54,19 @@ class CustomCard extends StatelessWidget {
                   inspirationPerson.finalColor
                 ])),
       ),
+    );
+  }
+
+  _showDialog(BuildContext context, String title, String description) {
+    BlurryDialog alert = BlurryDialog(
+      title,
+      description,
+    );
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return alert;
+      },
     );
   }
 }
