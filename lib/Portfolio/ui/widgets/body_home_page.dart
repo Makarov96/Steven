@@ -24,7 +24,7 @@ class BodyHomePage extends StatelessWidget {
 
     final description = Container(
         margin: EdgeInsets.only(top: screenHeight * 0.00),
-        child: Text("Frontend Developer  UI/UX Designer",
+        child: Text("Mobile Developer - UI/UX Designer",
             style: GoogleFonts.roboto(
                 color: Colors.white,
                 fontSize: 15,
