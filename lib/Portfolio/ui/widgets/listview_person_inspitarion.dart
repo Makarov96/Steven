@@ -189,7 +189,7 @@ class HeaderOfInspiration extends StatelessWidget {
             child: Text("ayudado, espero te ayuden a ti",
                 style: GoogleFonts.roboto(
                     color: Colors.white,
-                    fontSize: 25,
+                    fontSize: 35,
                     fontWeight: FontWeight.w400))),
         Container(
           height: 300,
