@@ -44207,7 +44207,7 @@ $R:2,
 $S:294}
 T.xB.prototype={
 F:function(a){var t=null
-return T.ir(H.b([M.bb(C.x,L.cB("Inspiraciones que me han ",B.dL(C.j,35,C.u)),t,t,t,t,t,t,t,t,t),M.bb(C.x,L.cB("ayudado, espero te ayuden a ti",B.dL(C.j,25,C.u)),t,t,t,t,t,t,t,t,t),M.bb(t,t,t,t,S.eb(t,t,t,t,t,X.wy(t,new L.h3("assets/img/lines.png",t,t)),C.M),t,300,t,t,t,1/0)],u.t),C.aE,C.bg,C.aU)}}
+return T.ir(H.b([M.bb(C.x,L.cB("Inspiraciones que me han ",B.dL(C.j,35,C.u)),t,t,t,t,t,t,t,t,t),M.bb(C.x,L.cB("ayudado, espero te ayuden a ti",B.dL(C.j,35,C.u)),t,t,t,t,t,t,t,t,t),M.bb(t,t,t,t,S.eb(t,t,t,t,t,X.wy(t,new L.h3("assets/img/lines.png",t,t)),C.M),t,300,t,t,t,1/0)],u.t),C.aE,C.bg,C.aU)}}
 O.xa.prototype={}
 O.JF.prototype={
 $3:function(a,b,c){return this.a},
