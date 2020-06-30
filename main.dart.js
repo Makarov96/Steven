@@ -44181,7 +44181,7 @@ $0:function(){return new K.mM().h9("https://github.com/Makarov96")},
 $S:15}
 F.vJ.prototype={
 F:function(a){var t=null,s=F.bB(a,!1).a.b,r=s*0,q=u.t
-return Q.P3(!0,T.j5(C.bp,H.b([B.a0c(H.b([T.ir(H.b([new T.dE(C.x,t,t,M.bb(t,U.XO("assets/img/figure.png"),t,t,t,t,t,new V.aq(0,s*0.2,0,0),t,t,t),t),M.bb(t,L.cB("Steven Colocho",B.dL(C.j,35,C.u)),t,t,t,t,t,new V.aq(0,r,0,0),t,t,t),M.bb(t,L.cB("Frontend Developer  UI/UX Designer",B.dL(C.j,15,C.ab)),t,t,t,t,t,new V.aq(0,r,0,0),t,t,t)],q),C.aE,C.bg,C.aU),new K.vj(t)],q))],q),C.bl),C.aa,!0)}}
+return Q.P3(!0,T.j5(C.bp,H.b([B.a0c(H.b([T.ir(H.b([new T.dE(C.x,t,t,M.bb(t,U.XO("assets/img/figure.png"),t,t,t,t,t,new V.aq(0,s*0.2,0,0),t,t,t),t),M.bb(t,L.cB("Steven Colocho",B.dL(C.j,35,C.u)),t,t,t,t,t,new V.aq(0,r,0,0),t,t,t),M.bb(t,L.cB("Mobile Developer - UI/UX Designer",B.dL(C.j,15,C.ab)),t,t,t,t,t,new V.aq(0,r,0,0),t,t,t)],q),C.aE,C.bg,C.aU),new K.vj(t)],q))],q),C.bl),C.aa,!0)}}
 T.lC.prototype={
 F:function(a){var t=null,s=new Y.dD(C.j,3,C.J),r=this.c,q=new P.bi(15,15)
 return R.fv(!1,!0,M.bb(t,T.ir(H.b([M.bb(t,t,t,t,S.eb(new F.bV(s,s,s,s),t,t,t,t,X.wy(C.i6,new D.mn(r.c)),C.aD),t,100,t,t,t,100),M.bb(t,L.cB(r.a,A.kQ(t,t,C.j,t,t,t,t,t,t,t,t,t,t,C.bb,t,t,!0,t,t,t,t,t,t)),t,t,t,t,t,new V.aq(0,15,0,0),t,t,t)],u.t),C.aE,C.h7,C.aU),t,t,S.eb(t,new K.bD(q,q,q,q),t,t,T.Y_(C.nf,H.b([r.d,r.e],u.r8),C.ne,t,C.kg),t,C.M),t,230,new V.aq(0,30,0,0),t,t,200),t,!0,t,t,t,t,t,t,t,t,t,new T.Ib(this,a),C.j)},
