@@ -32,7 +32,8 @@ class CustomCard extends StatelessWidget {
                   shape: BoxShape.circle,
                   image: DecorationImage(
                       fit: BoxFit.cover,
-                      image: NetworkImage(inspirationPerson.path))),
+                      image:
+                          AssetImage('assets/img/${inspirationPerson.path}'))),
             ),
             Container(
               margin: EdgeInsets.only(top: 15.0),
