@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "3e27e26baa9364b20ba5c25f952d3046",
+  "assets/AssetManifest.json": "517eb8fe4892aff701004efb1f74ce16",
 "assets/assets/img/albert.jpg": "ccdb887048164388276e640afb7ddfa6",
 "assets/assets/img/anahi.jpg": "fd9379e62a396808ab33dad045b6f248",
 "assets/assets/img/brendon.jpg": "176d46fda168e62356255201b18158fd",
@@ -26,6 +26,7 @@ const RESOURCES = {
 "assets/assets/img/m.jpg": "c2be62d2b53f78019f3b2a1ef2fc7253",
 "assets/assets/img/mancha.png": "155120b072a4565957102cd563adc825",
 "assets/assets/img/mancha2.png": "e14e0c6dab5c84606c83bfa99b4d1795",
+"assets/assets/img/margaret.jpeg": "19793817069bdf216c87b3d743ac88ce",
 "assets/assets/img/margaret.jpg": "9ff4af1eeb389523802f1a17022aeb33",
 "assets/assets/img/norick.jpg": "c70e0d9143b5f30eb2928b31a6af655d",
 "assets/assets/img/play.png": "cf19f9b175ebd7650e9860257a90da85",
@@ -61,7 +62,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "78c33a4648a12c74995ea47d864f33d9",
 "/": "78c33a4648a12c74995ea47d864f33d9",
-"main.dart.js": "9acef4d1fc9dce72ce664d710fe88320",
+"main.dart.js": "b1e608d0a087fc61fcaac5faf115ef6d",
 "manifest.json": "fa8d938a12b2116e51a3bc097f6d551c"
 };
 
