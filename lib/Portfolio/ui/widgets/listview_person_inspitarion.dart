@@ -10,8 +10,8 @@ class ListViewPersonInspiration extends StatelessWidget {
     InspirationPerson(
         name: 'Margaret Hamilton',
         description:
-            '''Siempre he admirado la historia de Margaret Hamilton ya que ella fue la directora de la división de Ingeniería de Software del laboratorio de instrumentación del MIT, ademas sin tener herramientas construyo un software robusto para poder mandar al espacio a los astronautas de la mision Apolo y si nos ponemos a pensar que si ese software hubiera tenido errores podriamos decir que chau astronautas, pero no como todos sabemos la mision fue todo un exito.''',
-        path: 'margaret.jpg',
+            '''Siempre he admirado la historia de Margaret Hamilton ya que ella fue la directora de la división de Ingeniería de Software del laboratorio de instrumentación del MIT, ademas sin tener herramientas construyo un software robusto para poder mandar al espacio a los astronautas de la mision Apolo y si nos ponemos a pensar que si ese software hubiera tenido errores podriamos decir que chau astronautas, pero no la mision fue todo un exito.''',
+        path: 'margaret.jpeg',
         initialColor: Color(0xFF1F1C2C),
         finalColor: Color(0xFF928DAB)),
     InspirationPerson(
