@@ -3,24 +3,40 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "cc1d3d30c4598fdad0aa915b2b140a79",
+  "assets/AssetManifest.json": "3e27e26baa9364b20ba5c25f952d3046",
+"assets/assets/img/albert.jpg": "ccdb887048164388276e640afb7ddfa6",
+"assets/assets/img/anahi.jpg": "fd9379e62a396808ab33dad045b6f248",
+"assets/assets/img/brendon.jpg": "176d46fda168e62356255201b18158fd",
+"assets/assets/img/carlos.jpg": "6a4c6464c5fc793c9f1acf0ec5554689",
+"assets/assets/img/chojin.jpg": "ccbc64ecb23e31ed4fd69ebc4a4faea2",
 "assets/assets/img/cube.png": "ac449347dbe67586513e693d6ff31609",
 "assets/assets/img/cubes.png": "802b534d4397b5230fad91960edfca91",
 "assets/assets/img/Diamons.png": "24d130d81e39b8828faf3852f7f257e4",
+"assets/assets/img/elon.jpg": "53acfbe23bbb8bde4f31137fc86f31c7",
 "assets/assets/img/facebook.png": "d91d9bfee2967d937ceb921914d3297b",
 "assets/assets/img/figure.png": "a7991517ba84617612a907a923e995c9",
+"assets/assets/img/gera.jpg": "e55653a23fed90097fba7e89e81c9515",
 "assets/assets/img/github.png": "393afde9d3a46f5ee6ed992c227677ad",
+"assets/assets/img/gym.jpg": "3e216aef0317a84f2037259d13731240",
 "assets/assets/img/instagram.png": "8e893bc27d90c632a1c4cdbd970dd13e",
 "assets/assets/img/li.png": "236d988ff99209397903d7ee6094ebb7",
 "assets/assets/img/lines.png": "68fce398a617cb8ceb7e54ca65dd5c11",
+"assets/assets/img/locus.jpg": "6c5bf411a994386c7b1d6657ad31ba69",
+"assets/assets/img/lou.jpg": "b6f8320a261923260b7d686ffaf1e8ec",
+"assets/assets/img/m.jpg": "c2be62d2b53f78019f3b2a1ef2fc7253",
 "assets/assets/img/mancha.png": "155120b072a4565957102cd563adc825",
 "assets/assets/img/mancha2.png": "e14e0c6dab5c84606c83bfa99b4d1795",
+"assets/assets/img/margaret.jpg": "9ff4af1eeb389523802f1a17022aeb33",
+"assets/assets/img/norick.jpg": "c70e0d9143b5f30eb2928b31a6af655d",
 "assets/assets/img/play.png": "cf19f9b175ebd7650e9860257a90da85",
+"assets/assets/img/raps.jpg": "2f7f2d6dae73691d342a7f4cc8b2f20b",
 "assets/assets/img/raqueta.png": "4beb999511d72499d3df4380a4291b1f",
+"assets/assets/img/rayden.jpg": "dbb5a71357fc62c693ce3818da02e965",
 "assets/assets/img/Steven.jpg": "690d11ea50e32e8a94165bf7c8bf064b",
+"assets/assets/img/walter.jpg": "47799276c4ae7567d1949ba77f729fe5",
 "assets/FontManifest.json": "18eda8e36dfa64f14878d07846d6e17f",
 "assets/fonts/MaterialIcons-Regular.ttf": "56d3ffdef7a25659eab6a68a3fbfaf16",
-"assets/NOTICES": "a13ee1330c47d0450fb0c0057f727915",
+"assets/NOTICES": "a959ae3360ac470d8542b9181c70c34a",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "115e937bb829a890521f72d2e664b632",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5a37ae808cf9f652198acde612b5328d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "2bca5ec802e40d3f4b60343e346cedde",
@@ -45,7 +61,7 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "index.html": "78c33a4648a12c74995ea47d864f33d9",
 "/": "78c33a4648a12c74995ea47d864f33d9",
-"main.dart.js": "cd200ceebd579501fe447e18c5f8a102",
+"main.dart.js": "9acef4d1fc9dce72ce664d710fe88320",
 "manifest.json": "fa8d938a12b2116e51a3bc097f6d551c"
 };
 
@@ -55,7 +71,7 @@ const CORE = [
   "/",
 "main.dart.js",
 "index.html",
-"assets/LICENSE",
+"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 
@@ -137,7 +153,7 @@ self.addEventListener("fetch", (event) => {
   if (event.request.url == origin || event.request.url.startsWith(origin + '/#')) {
     key = '/';
   }
-  // If the URL is not the the RESOURCE list, skip the cache.
+  // If the URL is not the RESOURCE list, skip the cache.
   if (!RESOURCES[key]) {
     return event.respondWith(fetch(event.request));
   }
@@ -160,11 +176,11 @@ self.addEventListener("fetch", (event) => {
 self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
-  if (event.message == 'skipWaiting') {
+  if (event.data === 'skipWaiting') {
     return self.skipWaiting();
   }
 
-  if (event.message = 'downloadOffline') {
+  if (event.message === 'downloadOffline') {
     downloadOffline();
   }
 });
@@ -184,8 +200,8 @@ async function downloadOffline() {
   }
   for (var resourceKey in Object.keys(RESOURCES)) {
     if (!currentContent[resourceKey]) {
-      resources.add(resourceKey);
+      resources.push(resourceKey);
     }
   }
-  return Cache.addAll(resources);
+  return contentCache.addAll(resources);
 }
