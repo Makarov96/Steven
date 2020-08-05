@@ -15,7 +15,7 @@ const RESOURCES = {
 "assets/assets/img/elon.jpg": "53acfbe23bbb8bde4f31137fc86f31c7",
 "assets/assets/img/facebook.png": "d91d9bfee2967d937ceb921914d3297b",
 "assets/assets/img/figure.png": "a7991517ba84617612a907a923e995c9",
-"assets/assets/img/gera.jpg": "e55653a23fed90097fba7e89e81c9515",
+"assets/assets/img/gera.jpg": "dee4d7d84b4d37e68f450b51389ce943",
 "assets/assets/img/github.png": "393afde9d3a46f5ee6ed992c227677ad",
 "assets/assets/img/gym.jpg": "3e216aef0317a84f2037259d13731240",
 "assets/assets/img/instagram.png": "8e893bc27d90c632a1c4cdbd970dd13e",
